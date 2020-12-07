@@ -1,8 +1,8 @@
 name: docustore_dart
-description: A new Flutter package project.
+description: An easy to use API for accessing data stored on a DocuStore instance.
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/adamfuller/docuStore_dart
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
