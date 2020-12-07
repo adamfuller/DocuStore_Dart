@@ -6,7 +6,7 @@ An easy to use API for accessing data stored on a DocuStore instance.
 Add the following to **`pubspec.yaml`**
 ```yaml
 dependencies:
-  docustore:
+  docustore_dart:
     git:
       url: git://github.com/adamfuller/docustore_dart.git
       ref: 0.0.1
@@ -22,7 +22,7 @@ If using Android, add the Internet permissions to android/app/src/main/AndroidMa
 
 Import the DocuStore package
 ```dart
-import 'package:docustore/docustore.dart' as ds;
+import 'package:docustore_dart/docustore_dart.dart' as ds;
 ```
 
 Initialize the address and port to the DocuStore Server instance, then make calls to storeEntry, getEntry, getEntries, and deleteEntry.
